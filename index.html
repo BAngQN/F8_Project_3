@@ -89,7 +89,50 @@
         <meta name="theme-color" content="#ffffff" />
         <!-- css -->
         <link rel="stylesheet" href="./assets/css/reset.css" />
+        <link rel="stylesheet" href="./assets/css/style.css" />
         <title>Dental care</title>
     </head>
-    <body></body>
+    <body style="height: 10000px">
+        <!-- Header -->
+        <header class="header header--sticky">
+            <div class="container header__info">
+                <a href="#!" class="logo">
+                    <img
+                        src="./assets/icon/icon_logo.svg"
+                        alt="shine smile"
+                        class="logo__image"
+                    />
+                    <div class="logo__branch">
+                        <span class="logo__branch--upper">shine</span>
+                        <span class="logo__branch--lower">smile</span>
+                    </div>
+                </a>
+                <nav class="header__nav">
+                    <ul class="header__nav-list">
+                        <li class="header__nav-item">
+                            <a
+                                class="header__nav-link header__nav-link--active"
+                                href="#!"
+                                >Home</a
+                            >
+                        </li>
+                        <li class="header__nav-item">
+                            <a class="header__nav-link" href="#!">Services</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a class="header__nav-link" href="#!">About</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a class="header__nav-link" href="#!">Doctors</a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <div class="header__actions">
+                    <a href="#!" class="header__actions-login"> Log In </a>
+                    <button class="btn header__actions-signup">Sign Up</button>
+                </div>
+            </div>
+        </header>
+    </body>
 </html>
