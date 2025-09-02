@@ -326,3 +326,71 @@ Remove space of its child
 .btn-services {
     margin-top: 55px;
 }
+
+/* Features */
+.features {
+    background: #f6fbff;
+}
+
+.features .container {
+    padding: 100px 0px 116px;
+}
+
+.feature__desc {
+    width: 468px;
+    margin-top: 18px;
+}
+
+.feature__list {
+    margin-top: 70px;
+    gap: 30px;
+}
+
+.feature__item {
+    /* position: relative; */
+    border-radius: 4px;
+    border: 16px solid #eaf6ff;
+    padding: 43px 42px;
+    transition: 0.25s;
+}
+
+.feature__item:hover {
+    border-color: #2e80ce;
+    /* top: -16px; */
+    transform: translateY(-16px);
+}
+
+.feature__item-icon {
+    width: 72px;
+    height: 72px;
+}
+
+.feature__item-name {
+    color: #10375c;
+    font-size: 2.6rem;
+    font-weight: 600;
+    line-height: 3.6rem; /* 138.462% */
+    margin-top: 18px;
+}
+
+.feature__item-desc {
+    color: #575f66;
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 2.8rem; /* 175% */
+    margin-top: 28px;
+}
+
+.feature__item-cta {
+    display: inline-block;
+    color: #575f66;
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 2.8rem; /* 175% */
+    margin-top: 18px;
+}
+
+.feature__item-cta:hover {
+    color: #2e80ce;
+    font-weight: 400;
+}
