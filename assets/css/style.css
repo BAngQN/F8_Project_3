@@ -278,10 +278,12 @@ Remove space of its child
     display: flex;
     justify-content: center;
     padding: 22px 21px 18px 20px;
+    transition: all 0.25s ease;
 }
 
 .service__info-item:hover {
     border-radius: 10px;
+    transform: scale(1.05);
     background: #fff;
     box-shadow: 0 14px 28px 0 rgba(0, 0, 0, 0.05);
 }
@@ -393,4 +395,50 @@ Remove space of its child
 .feature__item-cta:hover {
     color: #2e80ce;
     font-weight: 400;
+}
+
+/* Recommend Service */
+.recommend-service {
+    margin: 170px 0px;
+}
+
+.recommend-service .row {
+    justify-content: center;
+    align-items: center;
+}
+
+.recommend-service__media {
+    position: relative;
+    flex-basis: 48%;
+}
+
+.recommend-service__img {
+    height: 370px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.recommend-service__img:first-child {
+    width: 512px;
+}
+
+.recommend-service__img:last-child {
+    width: 332px;
+    position: absolute;
+    right: 0;
+    top: 121px;
+}
+
+.recommend-service__info {
+    flex-basis: 0%;
+    flex-grow: 1;
+    margin-left: 130px;
+}
+
+.recommend-service__desc {
+    margin-top: 18px;
+}
+
+.recommend-service__cta {
+    margin-top: 38px;
 }
