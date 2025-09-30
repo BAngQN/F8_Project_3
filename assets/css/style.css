@@ -68,6 +68,32 @@ a {
     line-height: 3rem; /* 166.667% */
 }
 
+.control {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.control .control__button {
+    border: 1px solid #575f66;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #575f66;
+    transition: background 0.25s ease;
+    cursor: pointer;
+}
+
+.control .control__button:hover {
+    background: #2e80ce;
+    border-color: #2e80ce;
+    color: white;
+}
+
 /* Header */
 .header {
     padding: 30px 0px 10px;
@@ -399,7 +425,7 @@ Remove space of its child
 
 /* Recommend Service */
 .recommend-service {
-    margin: 170px 0px;
+    margin: 170px 0px 291px;
 }
 
 .recommend-service .row {
@@ -440,5 +466,58 @@ Remove space of its child
 }
 
 .recommend-service__cta {
+    margin-top: 38px;
+}
+
+/* Member */
+.member {
+    text-align: center;
+}
+
+.member__cta {
+    margin-top: 38px;
+}
+
+.member__list {
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    gap: 34px;
+}
+
+.member-item--bg {
+    border-radius: 6px;
+    overflow: hidden;
+    padding-top: 28px;
+    background: #eaf6ff;
+}
+
+.member-item__avatar {
+    display: block;
+    width: 100%;
+    height: 290px;
+    object-fit: cover;
+    transition: transform 0.25s ease;
+}
+
+.member-item:hover .member-item__avatar {
+    transform: scale(1.1);
+}
+
+.member-item__name {
+    color: #10375c;
+    font-size: 1.6rem;
+    line-height: 2.8rem; /* 175% */
+}
+
+.member-item-title {
+    color: #575f66;
+    font-size: 1.4rem;
+    font-weight: 300;
+    line-height: 2.6rem; /* 185.714% */
+}
+
+.member__navigation {
+    justify-content: center;
     margin-top: 38px;
 }
