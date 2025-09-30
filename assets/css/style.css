@@ -521,3 +521,43 @@ Remove space of its child
     justify-content: center;
     margin-top: 38px;
 }
+
+/* Dentist app */
+.dentist-app {
+    margin-top: 170px;
+}
+
+.dentist-app__inner {
+    padding: 0px 70px;
+    border-radius: 4px;
+    background: #2e80ce;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dentist-app__img {
+    display: block;
+    margin-top: -95px;
+    object-fit: cover;
+}
+
+.dentist-app__info {
+    max-width: 586px;
+}
+
+.dentist-app__heading {
+    max-width: 489px;
+    color: white;
+}
+
+.dentist-app__desc {
+    margin-top: 18px;
+    color: white;
+}
+
+.dentist-app__actions {
+    display: flex;
+    margin-top: 38px;
+    align-items: center;
+    gap: 28px;
+}
