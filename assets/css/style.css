@@ -694,3 +694,124 @@ Remove space of its child
     font-size: 1.6rem;
     line-height: 2.8rem; /* 175% */
 }
+
+/* Footer */
+.footer {
+    background: #10375c;
+}
+
+.footer__inner {
+    padding: 100px 0px 42px;
+}
+
+.footer__row {
+    justify-content: space-between;
+}
+
+.footer__desc {
+    max-width: 336px;
+    margin-top: 21px;
+    color: #a9b3bb;
+    font-family: "Open Sans";
+    font-size: 1.6rem;
+    line-height: 2.8rem; /* 175% */
+}
+
+.footer__heading {
+    color: #fff;
+    font-family: "Open Sans";
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 2.8rem; /* 175% */
+}
+
+.footer__list {
+    display: inline-block;
+    margin: 20px 0px 28px;
+}
+
+.footer__link {
+    color: #a9b3bb;
+    font-family: "Open Sans";
+    font-size: 1.4rem;
+    line-height: 2.6rem; /* 185.714% */
+    margin-top: 10px;
+}
+
+.footer__link:hover {
+    text-decoration: underline;
+}
+
+.footer__social {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 20px 0px 28px;
+}
+
+.footer__social-btn {
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    border-radius: 32px;
+    background: #fff;
+    color: #2e80ce;
+    transition: all 0.25s ease;
+}
+
+.footer__social-btn:hover {
+    background: #2e80ce;
+    color: #fff;
+}
+
+.footer__subscribe {
+    margin-top: 10px;
+    display: flex;
+}
+
+.footer__subscribe--input {
+    width: 212px;
+    height: 46px;
+    border-radius: 4px;
+    background: none;
+    border: 1px solid #406181;
+    color: #9ca8b1;
+    font-family: "Open Sans";
+    font-size: 1.4rem;
+    padding: 10px;
+    line-height: 2.6rem; /* 185.714% */
+}
+
+.btn__footer {
+    min-width: 108px;
+    line-height: 46px;
+    height: 46px;
+    margin-left: 12px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.footer__copyright {
+    position: relative;
+}
+
+.footer__copyright-text {
+    color: #aab3ba;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 1.4rem;
+    line-height: 2.6rem; /* 185.714% */
+    margin: 0px auto;
+    padding-top: 28px;
+}
+
+.footer__copyright-text::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background: #406181;
+    top: 0;
+    left: 0;
+}
