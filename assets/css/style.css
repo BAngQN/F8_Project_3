@@ -664,3 +664,33 @@ Remove space of its child
     font-size: 1.4rem;
     font-weight: 400;
 }
+
+/* Appointment */
+.appointment {
+    margin: 170px 0px;
+}
+
+.appointment__inner {
+    padding: 100px 179px;
+    background: #f6fbff;
+    text-align: center;
+}
+
+.appointment__heading::after {
+    content: "";
+    display: block;
+    width: 136px;
+    height: 2px;
+    background: #2e80ce;
+    position: relative;
+    bottom: -18px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.appointment__desc {
+    width: 617px;
+    margin: 38px auto;
+    font-size: 1.6rem;
+    line-height: 2.8rem; /* 175% */
+}
