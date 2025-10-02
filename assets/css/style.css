@@ -388,6 +388,10 @@ Remove space of its child
     transform: translateY(-16px);
 }
 
+.feature__item:hover .feature__item-cta {
+    color: #2e80ce;
+}
+
 .feature__item-icon {
     width: 72px;
     height: 72px;
@@ -472,6 +476,7 @@ Remove space of its child
 /* Member */
 .member {
     text-align: center;
+    scroll-margin-top: 170px;
 }
 
 .member__cta {
